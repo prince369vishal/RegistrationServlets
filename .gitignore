@@ -1,11 +1,31 @@
-/bin/
-/target/
-/Servers/
-/build/
+# Ignore compiled class files
 *.class
-*.log
+
+# Ignore package builds
+*.war
+*.ear
+*.jar
+
+# Eclipse specific files
 .project
 .classpath
-.settings
+.settings/
+
+# Build directories
+/bin/
+/build/
+/target/
+
+# Server-specific files (Tomcat, etc.)
+/Servers/
+
+# Logs
+*.log
+
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Other IDE related
+.idea/
+.vscode/
