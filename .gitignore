@@ -6,6 +6,6 @@
 *.log
 .project
 .classpath
-.settings/
+.settings
 .DS_Store
 Thumbs.db
